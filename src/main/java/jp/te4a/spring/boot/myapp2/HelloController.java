@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController 
 {
-	@RequestMapping("/te/taro")
+	@RequestMapping("/taro")
 	public String taro() {
 		return "Taro desu!";
 	}
